@@ -1,9 +1,12 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap");
 @import url(./global/global.css);
 @import url(./util/tipografia.css);
 @import url(./util/colors.css);
 @import url(./home/tecnology.css);
+@import url(./home/parceiros.css);
+@import url(./home/depoimentos.css);
 
+/* Global */
 @import url(./global/header.css);
 
 /* Home */
@@ -14,3 +17,6 @@
 
 /* Bicicletas */
 @import url(./bikes/bikes-list.css);
+
+/* Seguros */
+@import url(./seguros/seguros.css);
