@@ -1,3 +1,10 @@
+.container {
+  margin-bottom: 40px;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 .btn {
   display: inline-block;
   padding: 16px 32px;
