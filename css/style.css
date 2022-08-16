@@ -2,15 +2,16 @@
 @import url(./global/global.css);
 @import url(./util/tipografia.css);
 @import url(./util/colors.css);
-@import url(./home/tecnology.css);
-@import url(./home/parceiros.css);
-@import url(./home/depoimentos.css);
 
 /* Global */
 @import url(./global/header.css);
+@import url(./global/footer.css);
 
 /* Home */
 @import url(./home/introducao.css);
+@import url(./home/tecnology.css);
+@import url(./home/parceiros.css);
+@import url(./home/depoimentos.css);
 
 /* Utilidades */
 @import url(./util/componentes.css);

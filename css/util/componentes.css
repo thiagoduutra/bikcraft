@@ -1,7 +1,11 @@
 .container {
-  margin-bottom: 40px;
   max-width: 1200px;
   padding: 0 20px;
+  margin: 0 auto;
+}
+
+.container-footer {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
