@@ -10,12 +10,12 @@
   object-fit: cover;
 }
 
-.depoimento-conteudo {
+.depoimento-main {
   padding: 40px 40px 80px 80px;
   align-self: end;
 }
 
-.depoimento-conteudo p {
+.depoimento-main p {
   max-width: 32ch;
   font-family: "Merriweather", sans-serif;
   font-style: italic;
@@ -31,7 +31,7 @@
   .depoimento img {
     max-height: 200px;
   }
-  .depoimento-conteudo {
+  .depoimento-main {
     padding: 40px 20px;
     justify-self: center;
   }
