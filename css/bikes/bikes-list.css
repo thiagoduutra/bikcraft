@@ -15,6 +15,10 @@
   overflow-x: auto;
 }
 
+#bicicletas .bikes-list ul {
+  padding: 0 0 20px 0;
+}
+
 .bikes-list li {
   flex: 1;
   min-width: 280px;

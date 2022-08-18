@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap");
 @import url(./global/global.css);
-@import url(./util/tipografia.css);
-@import url(./util/colors.css);
 
 /* Global */
 @import url(./global/header.css);
@@ -15,6 +13,9 @@
 
 /* Utilidades */
 @import url(./util/componentes.css);
+@import url(./util/tipografia.css);
+@import url(./util/colors.css);
+@import url(./util/form.css);
 
 /* Bicicletas */
 @import url(./bikes/bikes-list.css);
@@ -22,11 +23,16 @@
 
 /* Bicicleta */
 @import url(./bike/bike.css);
+@import url(./bike/seguro.css);
 
 /* Seguros */
 @import url(./seguros/seguros.css);
 @import url(./seguros/vantagens.css);
 @import url(./seguros/perguntas.css);
+
+/* Contato */
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
 
 /* Termos */
 @import url(./termos/termos.css);
