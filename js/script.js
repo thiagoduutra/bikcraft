@@ -36,7 +36,8 @@ function abrirPergunta(e) {
 
   pergunta.setAttribute("aria-expanded", "true");
   resposta.classList.toggle("ativa");
-  console.log(resposta);
+  const ativa = resposta.classList.contains("ativa");
+  pergunta.setAttribute("aria-expanded", ativa);
 }
 
 function eventosPerguntas(pergunta) {
@@ -45,4 +46,19 @@ function eventosPerguntas(pergunta) {
 
 perguntas.forEach(eventosPerguntas);
 
-console.log(perguntas);
+//Galeria de bicicletas
+
+const galeria = document.querySelectorAll(".bicicleta-img img");
+const galeriaContainer = document.querySelector(".bicicleta-img");
+
+function trocarImagem(e) {
+  const img = e.currentTarget;
+  matchMedia("min-width:1000px");
+  galeriaContainer.prepend(img);
+}
+
+function eventosGaleria(img) {
+  img.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
