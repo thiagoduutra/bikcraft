@@ -15,4 +15,4 @@ Projeto sendo feito do curso Origamid
 
 ## 📞 Contato
 
-Linkedin: https://www.linkedin.com/in/thiago-dutra-107b4a213/
+- [Linkedin](https://www.linkedin.com/in/thiago-dutra-107b4a213/)
